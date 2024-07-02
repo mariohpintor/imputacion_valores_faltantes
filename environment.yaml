@@ -1,0 +1,17 @@
+name: imputacion
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - pip
+  - matplotlib
+  - missingno
+  - numpy
+  - pandas
+  - pyjanitor
+  - scipy
+  - seaborn
+  - statsmodels
+  - upsetplot
+  - r::r-nhanes
+prefix: //anaconda3/envs/imputacion
