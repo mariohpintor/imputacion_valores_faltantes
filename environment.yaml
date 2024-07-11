@@ -1,4 +1,6 @@
-name: proyecto1
+
+name: Datos faltantes
+
 channels:
   - conda-forge
   - defaults
@@ -17,3 +19,4 @@ dependencies:
   - conda-forge::seaborn
   - conda-forge::missingno
 prefix: //miniconda3/envs/proyecto1
+
