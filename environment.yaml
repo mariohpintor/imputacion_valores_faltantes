@@ -1,0 +1,19 @@
+name: proyecto1
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - numpy
+  - pandas
+  - matplotlib
+  - tensorflow
+  - scikit-learn
+  - conda-forge::jupyterlab
+  - jupyter
+  - ipython
+  - conda-forge::upsetplot
+  - conda-forge::pyreadr
+  - conda-forge::pyjanitor
+  - conda-forge::seaborn
+  - conda-forge::missingno
+prefix: //miniconda3/envs/proyecto1
